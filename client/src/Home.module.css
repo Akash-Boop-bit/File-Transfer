@@ -1,0 +1,58 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/noob2.jpg");
+  background-size: cover;
+}
+
+.head {
+  font-size: 4rem;
+  color: yellow;
+  padding: 8vh 0 0 14vh;
+  margin-bottom: 8vh;
+  
+}
+.para {
+  color: white;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+}
+
+.main1 {
+  margin-left: 14vh;
+  border-radius: 3vh;
+  width: 40%;
+  padding: 0 0 2vh 0;
+}
+.head2 {
+  border-radius: 2vh;
+  background-color: aqua;
+  color: black;
+  margin-bottom: 6vh;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    font-size: 3rem;
+    text-align: center;
+    padding: 4vh 0;
+    margin-bottom: 2vh;
+  }
+  .head2 {
+    margin-left: 0;
+    font-size: 2.5rem;
+
+  }
+  .main {
+    height: 120vh;
+    width: 100%;
+    background-image: url("./images/noob.jpg");
+    background-size: cover;
+  }
+  .main1 {
+    margin-left: 0;
+    width: 100%;
+  }
+}

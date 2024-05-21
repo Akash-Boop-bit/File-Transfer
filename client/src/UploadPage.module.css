@@ -1,0 +1,187 @@
+/* YourFormComponent.module.css */
+
+.form {
+  margin: 20px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.formgroup {
+  margin-bottom: 20px;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.restinp {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Button styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+p {
+  color: red;
+  font-weight: bold;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background-color: #00408f;
+  border-color: #00408f;
+}
+
+/* Multi-color Button styling */
+.buttonmulti {
+  display: inline-block;
+  padding: 15px 80px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(to right, #ff5f6d, #ffc371, #6a11cb);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buttonmulti:hover {
+  background: linear-gradient(to right, #ff5f6d, #ffc371, #6a11cb);
+  background-size: 200% auto;
+  color: black;
+  transition: background 0.5s ease;
+}
+
+.buttonmulti:focus {
+  outline: none;
+}
+
+.buttonmulti:active {
+  background: linear-gradient(to right, #ff5f6d, #ffc371, #6a11cb);
+  background-size: 200% auto;
+  color: #fff;
+  transition: background 0.1s ease;
+}
+
+/* Alternate Button styling */
+.buttonalt {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.buttonalt:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.buttonalt:focus {
+  outline: none;
+}
+
+.buttonalt:active {
+  color: #fff;
+  background-color: #222;
+  border-color: #222;
+}
+
+/* File Input styling */
+/* File Input styling */
+.fileinp {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fileinp:hover {
+  background-color: #0056b3;
+}
+
+.fileinp:focus {
+  outline: none;
+}
+
+/* Styling for the actual file input, hidden */
+.fileinp [type="file"] {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  cursor: pointer;
+}

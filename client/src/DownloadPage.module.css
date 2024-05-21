@@ -1,0 +1,55 @@
+/* Form background styling */
+.formcontainer {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px; /* Add some padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  height: 60vh;
+  width: 100%;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10vh;
+}
+.main {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+/* Button styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background-color: #00408f;
+  border-color: #00408f;
+}
+p {
+  color: red;
+  font-weight: 700;
+}
